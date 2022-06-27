@@ -1,3 +1,5 @@
+mod channeltimer;
+
 use futures::channel::mpsc;
 use futures::executor::block_on;
 use futures::StreamExt;
